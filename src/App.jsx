@@ -11,6 +11,18 @@ import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import ScrollUp from '../components/scrollup/ScrollUp';
 
+//import para paginas en construcción
+/*
+        <Home />
+        <About />
+        <Skills />
+        <Experience />
+        <Qualification />
+        <Work />
+        <Testimonials />
+        <Contact />
+*/
+import UnderConstruction from '../components/construction/Building';
 function App() {
 
   return (
@@ -19,12 +31,7 @@ function App() {
 
       <main className="main">
         <Home />
-        <About />
-        <Skills />
-        <Experience />
-        <Qualification />
-        <Work />
-        <Testimonials />
+        <UnderConstruction />
         <Contact />
       </main>
 
